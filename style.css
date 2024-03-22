@@ -1,0 +1,139 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+/*reset of browser's default values*/
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html {
+  font-size: 22px;
+}
+
+/*header section*/
+header {
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  opacity: 0.9;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 10px;
+  width: auto;
+  height: 50px;
+  left: 0px;
+}
+.nav-links {
+display: flex;
+float: right;
+margin-right: 0px;
+
+}
+a {
+  padding: 0px 10px;
+}
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+#mission {
+  height: 700px;
+  max-width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1863ehs*_ga*MTU2MzQxOTYzLjE3MDM3MDYyMTM.*_ga_3LRZM6TM9L*MTcxMTA0NjA4Ny45LjEuMTcxMTA1MDU3NS4yNi4wLjA.");
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 80px;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.mission-wrapper h2, .mission-wrapper h3 {
+  padding: 0.6em;
+}
+.mission-wrapper {
+  width: 100%;
+  background-color: black;
+}
+
+#featured-tea {
+  max-width: 1000px;
+  height: auto;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery-wrapper h4, .gallery-wrapper h5 {
+  padding: 0.5em;
+}
+
+.gallery-wrapper imgcaption {
+  padding-bottom: 1rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.img-item img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.locations h2 {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+.locations {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1pisvmu*_ga*MTU2MzQxOTYzLjE3MDM3MDYyMTM.*_ga_3LRZM6TM9L*MTcxMTEyODE4My4xMC4xLjE3MTExMzEwMjQuNTIuMC4w);
+  margin: 0 auto;
+  height: 500px;
+  width: 1200px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+.location-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-box {
+  width: 300px;
+  padding: 20px;
+  margin: 40px;
+  background-color: black;
+  line-height: 2;
+}
+.locations-box h3 {
+  text-align: center;
+}
+
+.locations-box h4, h5, h6 {
+  text-align: center;
+  font-size: 20px;
+  opacity: 1;
+  font: normal;
+  text-wrap: wrap;
+}
